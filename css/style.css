@@ -328,7 +328,7 @@ nav .nav-links {
 
 .footer .footer-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: top;
     gap: 92px;
 }
@@ -387,7 +387,7 @@ nav .nav-links {
     gap: 24px;
 }
 
-.footer-texts .footer-main-text {
+.footer-main-text {
     font-size: 20px;
     font-weight: 500;
 }
@@ -395,11 +395,21 @@ nav .nav-links {
 .footer-texts .footer-sub-text ul {
     display: flex;
     flex-direction: column;
+    gap: 14px;
 }
 
 .footer-texts .footer-sub-text a {
     font-size: 14px;
     color: #FFFFFF;
+}
+
+.footer-content .footer-sub-text {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: max-content;
 }
 
 
