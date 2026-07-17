@@ -1,0 +1,124 @@
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 768px) {
+    nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+nav .nav-links {
+    display: none;
+}
+
+.nav-cta a {
+    display: none;
+}
+
+nav .logo {
+    width: fit-content;
+    height: 55px;
+    margin-top: 9px;
+}
+
+
+
+
+
+/* HERO SECTION */
+
+.hero {
+    height: 80vh;
+    width: 100%;
+    background-image: url(../images/hero.jpg);
+    background-size: fill;
+    background-position: top !important;
+    background-repeat: no-repeat;
+}
+
+.hero .bg-dark {
+    background: linear-gradient( to right, #001D1E, #66666600);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    gap: 16px;
+    padding: 0px 0px 60px 16px;
+}
+
+.hero-text-container {
+    margin: 0;
+    gap: 11px;
+    height: fit-content;
+    width: auto;
+}   
+
+.hero-text-container > .main-text {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 590;
+}
+
+.hero-text-container .sub-text {
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 400;
+}
+
+.bg-dark .hero-cta a {
+    background-color: #00989C;
+    padding: 10px 12px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color .2s ease-in;
+}
+
+.hero-cta:hover {
+    background-color: #00B8BC;
+}
+
+
+
+/* Section 1 */
+
+.result .result-main-text  {
+    font-size: 24px;
+    width: 260px;
+    text-align: center;
+    line-height: 33px;
+}
+
+.result .result-content {
+    flex-direction: column;
+}
+
+.result-content .result-img {
+    width: 100%;
+    /* height: 410px; */
+}
+
+.result-content .result-sub-text {
+    width: 358px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.hero-service-content {
+    flex-direction: column;
+}
+
+.hero-service-main-text {
+    font-size: 24px;
+    width: 100%;
+}
+}
