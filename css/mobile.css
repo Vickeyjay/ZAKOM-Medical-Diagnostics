@@ -63,11 +63,12 @@ nav .logo {
 
 .hero-text-container > .main-text {
     font-size: 32px;
-    line-height: 38px;
-    font-weight: 590;
+        line-height: 38px;
+        font-weight: 590;
 }
 
 .hero-text-container .sub-text {
+    width: 299px;
     font-size: 12px;
     line-height: 17px;
     font-weight: 400;
@@ -113,12 +114,144 @@ nav .logo {
     line-height: 20px;
 }
 
+.result .result-content {
+    flex-direction: column;
+    align-items: stretch;   /* let children take full width */
+    width: 100%;
+}
+
+.result-content .result-img {
+    width: 100%;
+}
+
+
+
+/* SECTION 2 */
+
+.hero-services {
+    padding: 100px 20px;
+}
+
+.hero-service-text {
+    font-size: 24px !important;
+}
+
 .hero-service-content {
     flex-direction: column;
+    width: 100%;
 }
 
 .hero-service-main-text {
-    font-size: 24px;
+    font-size: 18px !important;
     width: 100%;
 }
+
+.hero-service-sub-text {
+    font-size: 12px !important;
+}
+
+
+.to-service-page > a {
+    font-size: 12px;
+}
+
+
+
+/* Section 3 */
+
+.why {
+    padding: 60px 20px;
+}
+
+.why .why-text {
+    font-size: 24px;
+}
+
+.why .why-cards-container  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.why-cards-container .cards {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cards > .icon {
+    width: 31.59724235534668px;
+    height: 29.952035903930664px;
+}
+
+.why-main-text {
+    font-size: 18px !important;
+}
+
+.why-sub-text {
+    font-size: 12px !important;
+    line-height: 20px !important;
+}
+
+
+
+/* Section 4 */
+
+
+.health-container {
+    padding: 10px;
+}
+
+.health  {
+    width: 100%;
+}
+
+.health .bg-dark {
+    background: linear-gradient(to right, #00979cc7,#00989C00);
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.health-text  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: start;
+    place-items: center;
+    height: 100%;
+    gap: 10px;
+}
+
+.health-main-text {
+    font-size: 32px;
+    line-height: 38px;
+    width: 284px!important;
+}
+
+.hero-text-container .health-sub-text {
+    width: 290px;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.health-cta {
+    width: 290px;
+}
+
+.footer {
+    padding: 65px 27px 30px 27px;
+}
+
+.footer-container {
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer-sub-text {
+    font-size: 12px !important;
+}
+
+
+
 }

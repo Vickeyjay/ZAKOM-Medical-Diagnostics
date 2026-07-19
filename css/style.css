@@ -66,7 +66,7 @@ nav .nav-links {
 /* Hero Section */
 
 .hero {
-    height: 100vh;
+    height: 100dvh;
     width: 100%;
     background-image: url(../images/hero.jpg);
     background-size: cover;
@@ -402,6 +402,10 @@ nav .nav-links {
 .footer-texts .footer-sub-text a {
     font-size: 14px;
     color: #FFFFFF;
+}
+
+.open {
+    width: min-content;
 }
 
 .footer-content .footer-sub-text {
