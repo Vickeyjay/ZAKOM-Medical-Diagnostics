@@ -1,0 +1,94 @@
+.main-text {
+    font-size: 72.39px !important;
+    font-size: 700;
+}
+
+.sub-text {
+    line-height: 26px;
+}
+
+.hero .bg-dark {
+    background: #001D1EB2;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-text-container {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    align-items: center;
+    text-align: center;
+}
+
+.result-content .result-sub-text {
+    width: 510px;
+}
+
+.hero-service-content .service-cards {
+    background-color: #F9F9F9;
+    padding: 30px;
+    width: 590.5px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 65px;
+}
+
+.icon img {
+    object-fit: contain;
+    width: 42.474578857421875px !important;
+    height: 47.4522705078125px !important;
+}
+
+.service-text-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #404345;
+}
+
+.service-main-text {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.service-sub-text {
+    font-size: 18px;
+    width: 440px;
+}
+
+.vision-text {
+    width: 367px;
+}
+
+.why .why-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.trust-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 47px;
+    padding: 72px 221px;
+}
+
+.trust-main {
+    font-size: 50px;
+    font-weight: 590;
+    color: #000D0D;
+}
+
+.trust-sub {
+    font-size: 20px;
+    color: #404345;
+    width: 798px;
+    line-height: 33px;
+}

@@ -95,7 +95,7 @@ nav .nav-links {
     margin-top: 10%;
     font-size: 72.39px;
     width: 670px;
-    line-height: 83px;
+    line-height: 70px;
     color: #FFFFFF;
 }
 
@@ -143,7 +143,7 @@ nav .nav-links {
 }
 
 .result-content .result-sub-text {
-    width: 443px;
+    width: 553px;
     font-size: 20px;
     line-height: 33px;
 }
@@ -292,6 +292,7 @@ nav .nav-links {
     background-position: center 10%;
     background-repeat: no-repeat;
     border-radius: 30px;
+    margin-bottom: 30%;
 }
 
 .health .bg-dark {
@@ -301,13 +302,32 @@ nav .nav-links {
     border-radius: 30px;
 }
 
-.hero-text-container .health-sub-text {
+.health-text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 120px;
+    gap: 12px;
+}
+
+.health-main-text {
+    margin-top: 10%;
+    font-size: 72.39px;
+    width: 670px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+.health-sub-text {
     width: 509px;
     margin-bottom: 15px;
     color: #FFFFFF;
 }
 
-.hero-text-container .health-cta a {
+.health-cta a {
     background-color: #FFFFFF;
     padding: 10px 12px;
     border-radius: 20px;
