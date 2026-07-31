@@ -9,32 +9,41 @@
     <title>About | ZAKOM Medical Diagnostics</title>
 </head>
 <body>
-       <header>
-        <nav>
-            <div class="logo">
-                <a href="#"><img src="./images/logo.png" alt="logo"></a>
-            </div>
+ <header>
+    <nav>
+        <div class="logo">
+            <a href="#"><img src="./images/logo.png" alt="logo"></a>
+        </div>
 
-            <ul class="nav-links">
-                <li>
-                    <a href="./index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./about.html">About</a>
-                </li>
-                <li>
-                    <a href="./services.html">Services</a>
-                </li>
-                <li>
-                    <a href="./contact.html">Contact</a>
-                </li>
-            </ul>
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
 
-            <div class="nav-cta">
-                <a href="./appointment.html">Book Appointment</a>
-            </div>
-        </nav>
-    </header>
+        <div class="nav-cta">
+            <a href="./appointment.html">Book Appointment</a>
+        </div>
+
+        <!-- Hamburger button -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile menu panel -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </div>
+</header>
 
     <section class="hero">
         <div class="bg-dark">
@@ -60,7 +69,7 @@
 
         <div class="result-content">
             <span class="result-img">
-                <img src="./images/section1.jpg" alt="lab test">
+                <img src="./images/zacombegan.png" alt="lab test">
             </span>
             <div class="result-sub-text">
                 <span>ZAKOM Medical Diagnostics was founded in February 2026 by Israel and Kofoworola Balogun, a vision born from a simple belief: that every patient deserves fast, accurate and compassionate diagnostic care. 
@@ -78,7 +87,7 @@
         <div class="hero-service-content">
             <div class="cards service-cards">
                 <div class="icon">
-                    <img src="./images/shield.png" alt="">
+                    <img src="./images/scope.png" alt="">
                 </div>
                 <div class="service-text-cont">
                     <div class="service-main-text">
@@ -91,7 +100,7 @@
             </div>
             <div class="cards service-cards">
                 <div class="icon">
-                    <img src="./images/userheart.png" alt="">
+                    <img src="./images/flag.png" alt="">
                 </div>
                 <div class="service-text-cont">
                     <div class="service-main-text">
@@ -113,7 +122,7 @@
         <div class="why-cards-container">
             <div class="cards">
                 <div class="icon">
-                    <img src="./images/shield.png" alt="">
+                    <img src="./images/target.png" alt="">
                 </div>
                 <div class="why-text-cont">
                     <div class="why-main-text">
@@ -126,7 +135,7 @@
             </div>
             <div class="cards">
                 <div class="icon">
-                    <img src="./images/userheart.png" alt="">
+                    <img src="./images/heart.png" alt="">
                 </div>
                 <div class="why-text-cont">
                     <div class="why-main-text">
@@ -139,7 +148,7 @@
             </div>
             <div class="cards">
                 <div class="icon">
-                    <img src="./images/clock.png" alt="">
+                    <img src="./images/balloon.png" alt="">
                 </div>
                 <div class="why-text-cont">
                     <div class="why-main-text">
@@ -152,7 +161,7 @@
             </div>
             <div class="cards">
                 <div class="icon">
-                    <img src="./images/doc.png" alt="">
+                    <img src="./images/shieldabout.png" alt="">
                 </div>
                 <div class="why-text-cont">
                     <div class="why-main-text">
@@ -165,7 +174,7 @@
             </div>
             <div class="cards">
                 <div class="icon">
-                    <img src="./images/doc.png" alt="">
+                    <img src="./images/people.png" alt="">
                 </div>
                 <div class="why-text-cont">
                     <div class="why-main-text">
@@ -189,7 +198,7 @@
         </div>
 
         <div class="trust-logo">
-            <img src="" alt="">
+            <img src="./images/Hefamaa.png" alt="">
         </div>
     </section>
 
@@ -281,5 +290,7 @@
             <span> &copy; 2026 ZAKOM Medical Diagnostics. All rights reserved.</span>
         </div>
     </footer>
+
+    <script src="js/index.js"></script>
 </body>
 </html>

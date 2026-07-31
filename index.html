@@ -8,32 +8,42 @@
     <title>ZAKOM Medical Diagnostics</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <a href="#"><img src="./images/logo.png" alt="logo"></a>
-            </div>
+<header>
+    <nav>
+        <div class="logo">
+            <a href="#"><img src="./images/logo.png" alt="logo"></a>
+        </div>
 
-            <ul class="nav-links">
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="./about.html">About</a>
-                </li>
-                <li>
-                    <a href="./services.html">Services</a>
-                </li>
-                <li>
-                    <a href="./contact.html">Contact</a>
-                </li>
-            </ul>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
 
-            <div class="nav-cta">
-                <a href="./appointment.html">Book Appointment</a>
-            </div>
-        </nav>
-    </header>
+        <div class="nav-cta">
+            <a href="./appointment.html">Book Appointment</a>
+        </div>
+
+        <!-- Hamburger button -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile menu panel -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <!-- <li><a href="./appointment.html">Book Appointment</a></li> -->
+        </ul>
+    </div>
+</header>
 
     <section class="hero">
         <div class="bg-dark">
@@ -260,5 +270,7 @@
             <span> &copy; 2026 ZAKOM Medical Diagnostics. All rights reserved.</span>
         </div>
     </footer>
+
+    <script src="js/index.js"></script>
 </body>
 </html>

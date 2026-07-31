@@ -6,6 +6,11 @@
     scroll-behavior: smooth;
 }
 
+/* body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+} */
+
 /* Navbar Section */
 
 nav {
@@ -146,6 +151,7 @@ nav .nav-links {
     width: 553px;
     font-size: 20px;
     line-height: 33px;
+    color: #404345;
 }
 
 /* Section 2 */
@@ -198,6 +204,7 @@ nav .nav-links {
     font-size: 24px;
     font-weight: 600;
     color: #404345;
+    width: max-content;
 }
 
 .hero-services-text-cont .hero-service-sub-text {
@@ -322,9 +329,11 @@ nav .nav-links {
 }
 
 .health-sub-text {
-    width: 509px;
+    width: 280px;
     margin-bottom: 15px;
     color: #FFFFFF;
+    font-size: 12px;
+    line-height: 17px;
 }
 
 .health-cta a {

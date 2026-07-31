@@ -1,0 +1,151 @@
+.contact-sub-text {
+    font-size: 20px;
+    width: 340px;
+    color: #FFFFFF;
+}
+
+.contacts-gen {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 100px 120px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.contact-main-text {
+    font-size: 50px;
+    color: #000D0D;
+    font-weight: 590;
+}
+
+.contact-contents {
+    display: flex;
+    gap: 68px;
+    justify-content: center;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 70%;
+}
+
+.info-cover {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contact-main {
+    font-size: 26px;
+    font-weight: 590;
+    color: #000D0D;
+}
+
+.contact-sub {
+    font-size: 20px;
+    color: #404345;
+}
+
+.availability {
+    width: 374px;
+}
+
+.contact-socials {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.contact-socials a {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    color: #404345;
+}
+
+.contact-socials a img{
+    width: 18.984060287475586px;
+    height: 19.992191314697266px;
+    object-fit: contain;
+}
+
+.contact-form {
+    display: flex;
+    min-width: 70%;
+}
+
+.con-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 28px;
+}
+
+.each-input {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+}
+
+.form-text {
+    font-size: 20px;
+    color: #404345;
+}
+
+input {
+    height: 60px;
+    border-radius: 14px;
+    border: 0.5px solid #000D0D;
+    padding: 10px;
+}
+
+textarea {
+    min-height: 186px;
+    min-width: 100%;
+    border-radius: 14px;
+    border: 0.5px solid #000D0D;
+    padding: 10px;
+}
+
+.contact-btn {
+    padding: 16px 0px;
+    background-color: #00989C;
+    border: none;
+    border-radius: 47px;
+}
+
+
+
+/* MObile Responsiveness */
+
+@media (max-width: 768px) {
+
+    .contacts-gen {
+        padding: 60px 16px !important;
+    }
+
+    .contact-main-text {
+        font-size: 24px;
+    }
+
+    .contact-contents {
+        flex-direction: column;
+    }
+
+    .contact-main {
+        font-size: 18px;
+    }
+
+    .contact-sub {
+        font-size: 12px;
+    }
+
+    .contact-info .availability {
+        width: 224px;
+    }
+}
