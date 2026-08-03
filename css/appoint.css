@@ -26,11 +26,15 @@
 }
 
 .spot-details-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
+}
+
+.normal-input {
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
@@ -91,8 +95,29 @@ option {
 /* MOBILE RESPONSIVENESS */
 
 @media (max-width: 768px) {
+
+    .spot {
+        padding: 60px 16px;
+    }
+
+    .spot-main {
+        font-size: 24px;
+    }
+
     .spot-details-container {
-        grid-template-columns: 1fr;
-        
+        flex-direction: column;
+    }
+
+    .form-text {
+        font-size: 12px;
+    }
+
+    .input {
+        height: 40px;
+        border: 0.31px solid #000D0D !important;
+    }
+
+    .app-input {
+        min-height: 112px;
     }
 }
